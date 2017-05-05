@@ -1,0 +1,1417 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+          xml:base="http://www.semanticweb.org/semo/ontologies/2015/6/untitled-ontology-40"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:xml="http://www.w3.org/XML/1998/namespace"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          ontologyIRI="http://www.semanticweb.org/semo/ontologies/2015/6/untitled-ontology-40">
+    <Prefix name="" IRI="http://www.semanticweb.org/semo/ontologies/2015/6/untitled-ontology-40"/>
+    <Prefix name="ont" IRI="http://www.Ain-Shams.org/ont.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سبا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:ام_لقرى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:طوبى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:العقبه"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:واد"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:القريتين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_البوار"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الغرفه"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:تسنيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:لضى"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سيل_العرم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:اليسرى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_السلام"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الصفا"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:هاويه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الفلق"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جبل"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ont:AfterLife_Place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_الدنيا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:السواى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:النار"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مقام_ابراهيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:السدره"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:ارم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:المروه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جبل_عرفات"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:البلد_الامين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_القصوى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الكوثر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_الخلد"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:نضره_النعيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_المقامه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:المدينه_المنوره"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:اثام"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الطور"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_الاخره"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سعير"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:البلده"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:بكه"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ont:Hell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:قدم_صدق"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الحسنى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:حنين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:السموم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:زنجبيل"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:التنور"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الطائف"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الجودي"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مقام_امين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:العسرى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:نهر_في_الجنه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الجنه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:صعد"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سينا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:العراق"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ont:Paradise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الاخدود"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:يحموم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مدين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:البلد"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:بدر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:صعودا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:كافور"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:بابل"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:دار_الفاسقين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سلسبيل"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:طوى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مقعد_صدق"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الرقيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سقر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:زقوم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جهنم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:سجين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:وادي"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:is_nameOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:معاد"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ont:hasDoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:وادي_النمل"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:رحيق"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الحطمه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الارض_المقدسه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:مصر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الخلد"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ont:PLACE_NOUN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:الاحقاف"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="ont:AfterLife_Place"/>
+        <Class abbreviatedIRI="ont:PLACE_NOUN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <Class abbreviatedIRI="ont:AfterLife_Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <Class abbreviatedIRI="ont:AfterLife_Place"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:اثام"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:الجنه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:الحسنى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:الحطمه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:السدره"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:السموم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:السواى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:العسرى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:العقبه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:الغرفه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:الفلق"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:الكوثر"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:النار"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:اليسرى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:تسنيم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الخلد"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:جهنم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_الاخره"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_البوار"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_الخلد"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_السلام"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_الفاسقين"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_المقامه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:رحيق"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:زقوم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:زنجبيل"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:سجين"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:سعير"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:سقر"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:سلسبيل"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:صعد"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:صعودا"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:طوبى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:قدم_صدق"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:كافور"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:لضى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:مقام_امين"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:مقعد_صدق"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:نضره_النعيم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Paradise"/>
+        <NamedIndividual abbreviatedIRI="ont:نهر_في_الجنه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:هاويه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Hell"/>
+        <NamedIndividual abbreviatedIRI="ont:يحموم"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:البلد"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:البلد_الامين"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:البلده"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+        <NamedIndividual abbreviatedIRI="ont:النار"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:الطائف"/>
+        <NamedIndividual abbreviatedIRI="ont:القريتين"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:القريتين"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:ام_القرى"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:بكه"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينا"/>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينين"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينا"/>
+        <NamedIndividual abbreviatedIRI="ont:طوى"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:معاد"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:واد"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+        <NamedIndividual abbreviatedIRI="ont:اثام"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:اثام"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:ارم"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:الغرفه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الاحقاف"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:الاحقاف"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الاخدود"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الارض_المقدسه"/>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:الارض_المقدسه"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:البلد"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:البلد_الامين"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:البلده"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:التنور"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+        <NamedIndividual abbreviatedIRI="ont:المدينه_المنوره"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+        <NamedIndividual abbreviatedIRI="ont:سيل_العرم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+        <NamedIndividual abbreviatedIRI="ont:مدين"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الجودي"/>
+        <NamedIndividual abbreviatedIRI="ont:العراق"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:الجودي"/>
+        <NamedIndividual abbreviatedIRI="ont:جبل"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الرقيم"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:الرقيم"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:الصفا"/>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:الصفا"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الطائف"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:الطور"/>
+        <NamedIndividual abbreviatedIRI="ont:مصر"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_الدنيا"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_الدنيا"/>
+        <NamedIndividual abbreviatedIRI="ont:المدينه_المنوره"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_القصوى"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:العدوة_القصوى"/>
+        <NamedIndividual abbreviatedIRI="ont:المدينه_المنوره"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:العراق"/>
+        <NamedIndividual abbreviatedIRI="ont:الجودي"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:العراق"/>
+        <NamedIndividual abbreviatedIRI="ont:بابل"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+        <NamedIndividual abbreviatedIRI="ont:العقبه"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:العقبه"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:الغرفه"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:الكوثر"/>
+        <NamedIndividual abbreviatedIRI="ont:نهر_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:المدينه_المنوره"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:المروه"/>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:المروه"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:المسجد_الاقصى"/>
+        <NamedIndividual abbreviatedIRI="ont:الارض_المقدسه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+        <NamedIndividual abbreviatedIRI="ont:الاحقاف"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+        <NamedIndividual abbreviatedIRI="ont:سبا"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+        <NamedIndividual abbreviatedIRI="ont:سيل_العرم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:بابل"/>
+        <NamedIndividual abbreviatedIRI="ont:العراق"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:بدر"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:تسنيم"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جبل_عرفات"/>
+        <NamedIndividual abbreviatedIRI="ont:جبل"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:جبل_عرفات"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الخلد"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الفردوس"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_الماوى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_النعيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنات_عدن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الخلد"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_الماوى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_السلام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:طوبى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:حنين"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_السلام"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:رحيق"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:زنجبيل"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:سبا"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:سبا"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:سلسبيل"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:سيل_العرم"/>
+        <NamedIndividual abbreviatedIRI="ont:اليمن"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:سينا"/>
+        <NamedIndividual abbreviatedIRI="ont:مصر"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+        <NamedIndividual abbreviatedIRI="ont:صعد"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:صعد"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+        <NamedIndividual abbreviatedIRI="ont:صعودا"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:صعودا"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:طوبى"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينا"/>
+        <NamedIndividual abbreviatedIRI="ont:سينا"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:طور_سينين"/>
+        <NamedIndividual abbreviatedIRI="ont:الطور"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+        <NamedIndividual abbreviatedIRI="ont:اعلى_الجنان"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:عليون"/>
+        <NamedIndividual abbreviatedIRI="ont:جنه_خاصه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء"/>
+        <NamedIndividual abbreviatedIRI="ont:التنور"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:تسنيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:رحيق"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:زنجبيل"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:سلسبيل"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:كافور"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:نضره_النعيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:كافور"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:لضى"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:مدين"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:مصر"/>
+        <NamedIndividual abbreviatedIRI="ont:سينا"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_inAreaOf"/>
+        <NamedIndividual abbreviatedIRI="ont:مقام_ابراهيم"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:مقام_ابراهيم"/>
+        <NamedIndividual abbreviatedIRI="ont:البيت_الحرام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:الصفا"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:الكعبه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:المروه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:جبل_عرفات"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+        <NamedIndividual abbreviatedIRI="ont:مكه"/>
+        <NamedIndividual abbreviatedIRI="ont:الجزيره_العربيه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:الحطمه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:العقبه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:سعير"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:سقر"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:لضى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:من_ابواب_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:هاويه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:اثام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:الحطمه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:السموم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:العسرى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:الفلق"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:النار"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:جهنم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_البوار"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_الخلد"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:دار_الفاسقين"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:سجين"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:سعير"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:سقر"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:لضى"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:has_name"/>
+        <NamedIndividual abbreviatedIRI="ont:من_اسماء_النار"/>
+        <NamedIndividual abbreviatedIRI="ont:هاويه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:نضره_النعيم"/>
+        <NamedIndividual abbreviatedIRI="ont:عين_ماء_في_الجنه"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:hasPart"/>
+        <NamedIndividual abbreviatedIRI="ont:نهر_في_الجنه"/>
+        <NamedIndividual abbreviatedIRI="ont:الكوثر"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي_النمل"/>
+        <NamedIndividual abbreviatedIRI="ont:الشام"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي_النمل"/>
+        <NamedIndividual abbreviatedIRI="ont:وادي"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:isMountain_in"/>
+        <NamedIndividual abbreviatedIRI="ont:يحموم"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ont:is_a"/>
+        <NamedIndividual abbreviatedIRI="ont:يحموم"/>
+        <NamedIndividual abbreviatedIRI="ont:الجبال_في_دار_العقاب"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <NamedIndividual abbreviatedIRI="ont:البلده"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">بلده</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <NamedIndividual abbreviatedIRI="ont:الجحيم"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">جحيم</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <NamedIndividual abbreviatedIRI="ont:الجنه"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">جنه</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <NamedIndividual abbreviatedIRI="ont:الطور"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">طور</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <NamedIndividual abbreviatedIRI="ont:النار"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">نار</Literal>
+    </DataPropertyAssertion>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="ont:isLocated_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="ont:is_partOf"/>
+    </TransitiveObjectProperty>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="ont:hasStem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
